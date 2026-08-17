@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-08-17T09:04:30.531017",
+  "projects": [
+    {
+      "id": "RUS",
+      "name": "Автоматизация закупок РусГидро",
+      "total_tasks": 42,
+      "blocked": 3,
+      "in_progress": 12,
+      "completed_last_week": 8
+    },
+    {
+      "id": "DIT",
+      "name": "Магазин приложений для МЭШ",
+      "total_tasks": 28,
+      "blocked": 0,
+      "in_progress": 8,
+      "completed_last_week": 15
+    },
+    {
+      "id": "VTB",
+      "name": "Модернизация систем ВТБ",
+      "total_tasks": 156,
+      "blocked": 7,
+      "in_progress": 34,
+      "completed_last_week": 22
+    }
+  ],
+  "summary": {
+    "total_tasks": 226,
+    "total_blocked": 10,
+    "total_in_progress": 54,
+    "total_completed": 45
+  }
+}

@@ -1,0 +1,23 @@
+# Секреты и конфиги
+.env
+security/allowed_users.json
+*.db
+*.sqlite
+*.sqlite3
+
+# Логи
+reports/logs/
+*.log
+*.tmp
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
