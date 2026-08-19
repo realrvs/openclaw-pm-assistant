@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "id": "RUS",
+      "name": "Автоматизация закупок РусГидро",
+      "status": "Предварительные испытания",
+      "team_size": 20,
+      "tech_stack": ["Vue.js 3", "Python FastAPI", "PostgreSQL", "Kubernetes"],
+      "risks": ["Изменение требований", "Интеграция с legacy"],
+      "last_update": "2026-08-17",
+      "owner": "Роман Соколов"
+    },
+    {
+      "id": "DIT",
+      "name": "Магазин приложений для МЭШ",
+      "status": "Промышленная эксплуатация",
+      "team_size": 12,
+      "tech_stack": [".NET", "React", "Kafka", "Redis"],
+      "risks": ["Нагрузка", "Безопасность"],
+      "last_update": "2026-08-17",
+      "owner": "Роман Соколов"
+    },
+    {
+      "id": "VTB",
+      "name": "Модернизация систем ВТБ",
+      "status": "Активная разработка",
+      "team_size": 45,
+      "tech_stack": ["Java", "Spring Boot", "PostgreSQL", "Kafka"],
+      "risks": ["Интеграция", "Сроки"],
+      "last_update": "2026-08-17",
+      "owner": "Роман Соколов"
+    }
+  ]
+}

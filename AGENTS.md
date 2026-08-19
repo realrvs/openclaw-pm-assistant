@@ -129,3 +129,11 @@ This is a starting point. Add your own conventions, style, and rules as you figu
 - [Default AGENTS.md](/reference/AGENTS.default)
 - [Scheduled tasks vs heartbeat](/automation#scheduled-tasks-cron-vs-heartbeat)
 - [Heartbeat](/gateway/heartbeat)
+
+## Project Management
+
+Когда пользователь спрашивает о статусе проектов:
+1. Запусти скрипт: python3 ~/.openclaw/workspace/skills/project_analytics.py
+2. Покажи результат в читаемом формате
+
+Для конкретного проекта используй функцию get_project_details('RUS')
