@@ -1,33 +1,43 @@
 {
   "projects": [
     {
-      "id": "RUS",
-      "name": "Автоматизация закупок РусГидро",
-      "status": "Предварительные испытания",
-      "team_size": 20,
-      "tech_stack": ["Vue.js 3", "Python FastAPI", "PostgreSQL", "Kubernetes"],
-      "risks": ["Изменение требований", "Интеграция с legacy"],
-      "last_update": "2026-08-17",
-      "owner": "Роман Соколов"
-    },
-    {
-      "id": "DIT",
-      "name": "Магазин приложений для МЭШ",
-      "status": "Промышленная эксплуатация",
-      "team_size": 12,
-      "tech_stack": [".NET", "React", "Kafka", "Redis"],
-      "risks": ["Нагрузка", "Безопасность"],
-      "last_update": "2026-08-17",
-      "owner": "Роман Соколов"
-    },
-    {
-      "id": "VTB",
-      "name": "Модернизация систем ВТБ",
+      "id": "ANL",
+      "name": "Аналитика Проект",
       "status": "Активная разработка",
-      "team_size": 45,
-      "tech_stack": ["Java", "Spring Boot", "PostgreSQL", "Kafka"],
-      "risks": ["Интеграция", "Сроки"],
-      "last_update": "2026-08-17",
+      "team_size": 5,
+      "tech_stack": ["Python", "Pandas", "SQL"],
+      "risks": ["Нехватка данных", "Сложность интеграции"],
+      "last_update": "2026-08-20",
+      "owner": "Роман Соколов"
+    },
+    {
+      "id": "MEGA",
+      "name": "Мега Проект",
+      "status": "Планирование",
+      "team_size": 15,
+      "tech_stack": ["Java", "Spring", "PostgreSQL"],
+      "risks": ["Сложность архитектуры", "Сроки"],
+      "last_update": "2026-08-20",
+      "owner": "Роман Соколов"
+    },
+    {
+      "id": "PLAT",
+      "name": "Разработка Платформы",
+      "status": "Активная разработка",
+      "team_size": 10,
+      "tech_stack": ["Node.js", "React", "MongoDB"],
+      "risks": ["Производительность", "Масштабирование"],
+      "last_update": "2026-08-20",
+      "owner": "Роман Соколов"
+    },
+    {
+      "id": "TP",
+      "name": "Тестовый Проект",
+      "status": "Завершён",
+      "team_size": 3,
+      "tech_stack": ["Python", "FastAPI", "PostgreSQL"],
+      "risks": ["Нет"],
+      "last_update": "2026-08-20",
       "owner": "Роман Соколов"
     }
   ]
